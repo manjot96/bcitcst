@@ -1,0 +1,88 @@
+
+baseurl = "/"
+title = "Mainroad"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+
+[Author]
+    name = "John Doe"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "img/avatar.png"
+
+
+[Params]
+    subtitle = "Just another site" # Subtitle of your site
+    description = " John Doe's Personal blog about everything" # Description of your site
+    opengraph = true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+
+
+[Params.widgets]
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+
+##old
+# baseurl = "https://example.org/"
+# languageCode = "en-us"
+# title = "My New Hugo Site"
+# theme = "hugo-bootstrap"
+# author = "Steve Francia"
+# copyright = "Copyright (c) 2008 - 2017, Steve Francia; all rights reserved."
+# canonifyurls = true
+# paginate = 3
+# contentDir = "content"
+#
+# #
+# # [[menu.sidebar]]
+# # name = "Link 1"
+# # url = "https://example.com"
+# #
+# # [[menu.sidebar]]
+# # name = "Link 2"
+# # url = "https://example.org"
+#
+# [[menu.main]]
+#     name = "TAGS"
+#     pre = "<i class='fa fa-tags'></i>"
+#     weight = -110
+#     identifier = "tags"
+#     url = "/tags/"
+#
+# [[menu.main]]
+#     name = "CATEGORIES"
+#     pre = "<i class='fa fa-folder-open'></i>"
+#     weight = -100
+#     identifier = "categories"
+#     url = "/categories/"
+#
+# [[menu.main]]
+#     name = "ABOUT ME"
+#     pre = "<i class='fa fa-info-circle'></i>"
+#     weight = -90
+#     identifier = "about-me"
+#     url = "/page/about-me"
+#
+# [[menu.footer]]
+#     name = "DISCLAIMER"
+#     weight = -110
+#     identifier = "disclaimer"
+#     url = "/page/disclaimer/"
+#
+# [[menu.footer]]
+#     name = "LICENSE"
+#     weight = -120
+#     identifier = "license"
+#     url = "/page/license/"
+#
+# [params.widgets]
+#   recent_articles = true
+#   categories = true
+#   tags = true
+#   tag_cloud = true
