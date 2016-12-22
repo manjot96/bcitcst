@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BCIT CST</title>
-    <link>/tags/boolean-algebra/index.xml</link>
+    <link>www.bcitcst.com/tags/boolean-algebra/index.xml</link>
     <description>Recent content on BCIT CST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/tags/boolean-algebra/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="www.bcitcst.com/tags/boolean-algebra/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>COMP 1113 - Applied Mathematics</title>
-      <link>/post/term1/comp1113/</link>
+      <link>/www.bcitcst.com/post/term1/comp1113/</link>
       <pubDate>Wed, 21 Dec 2016 22:44:15 -0800</pubDate>
       
-      <guid>/post/term1/comp1113/</guid>
+      <guid>/www.bcitcst.com/post/term1/comp1113/</guid>
       <description></description>
     </item>
     
