@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentation</title>
+<meta name="description" content=" John Doe&#39;s Personal blog about everything">
+<meta name="generator" content="Hugo 0.17" />
+<meta property="og:title" content="Documentation" />
+<meta property="og:description" content="Simple documentation for Hugo" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/doc/" />
+
+
+<meta property="og:updated_time" content="2016-12-21T01:25:44-08:00"/>
+
+
+
+
+
+
+
+
+
+
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/scripts.js"></script>
+<!--[if lt IE 9]>
+	<script src="/js/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+<body id="mr-mobile" class="home blog mr-right-sb" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+	<div class="mr-container mr-container-outer">
+		<div class="mr-header-mobile-nav clearfix"></div>
+			<header class="mr-header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+				<div class="mr-container mr-container-inner mr-row clearfix">
+					<div class="mr-custom-header clearfix">
+						<div class="mr-site-identity">
+							<div class="mr-site-logo" role="banner" itemscope="itemscope" itemtype="http://schema.org/Brand">
+								<div class="mr-header-text">
+									<a class="mr-header-text-link" href="/" title="BCIT CST" rel="home">
+										<h1 class="mr-header-title">BCIT CST</h1>
+										<h2 class="mr-header-tagline">Our journey in the CST program at BCIT</h2>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mr-main-nav-wrap">
+					<nav class="mr-navigation mr-main-nav mr-container mr-container-inner clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+	<div class="menu">
+		<ul>
+		
+		
+			<li class="page_item"><a href="/about/">ABOUT HUGO</a></li>
+		
+			<li class="page_item"><a href="/doc/">DOCUMENTATION</a></li>
+		
+		
+		</ul>
+	</div>
+</nav>
+				</div>
+			</header>
+		<div class="mr-wrapper clearfix">
+
+
+<div class="mr-content" id="main-content" role="main" itemprop="mainContentOfPage">
+    <article class="post">
+        <header class="entry-header clearfix">
+            <h1 class="entry-title">Documentation</h1>
+            <p class="mr-meta entry-meta">
+                <svg class="icon icon-time" height="14" viewBox="0 0 16 16" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+                <time class="entry-meta-date updated" datetime="2016-12-21 01:25:44 -0800 PST">December 21, 2016</time>
+            </p>
+        </header>
+        <div class="entry-content clearfix">
+            
+            
+
+<h2 id="simple-documentation-for-getting-started-with-hugo">Simple Documentation for getting started with Hugo</h2>
+
+<h3 id="understanding-how-it-works">Understanding how it works</h3>
+
+<ol>
+<li>Main file is <strong>config.toml</strong>
+
+<ul>
+<li>Don&rsquo;t really need to understand the syntax</li>
+<li>Main stuff is the baseurl, title, and theme you&rsquo;ll be using</li>
+<li>to setup new theme just clone the git repo for that theme into themes folder and change theme = &lsquo;folderNameOfTheme&rsquo; in config.toml</li>
+<li>Most commands are different theme to theme</li>
+<li>Every theme has an example site if you want to get started with that</li>
+</ul></li>
+<li>Creating a new post
+
+<ul>
+<li>All posts are put underneath content-&gt;posts</li>
+<li>To create a post you can do <strong>hugo new post my-new-post</strong></li>
+<li>It automatically shows up on the blog</li>
+</ul></li>
+<li>Testing your blog
+
+<ul>
+<li><strong>hugo serve -w</strong> deploys it locally to localhost:1313</li>
+</ul></li>
+<li>Deploying to server
+
+<ul>
+<li>type <strong>hugo</strong> in the root dir and it&rsquo;ll generate a public folder that just contains the html files for your entire website</li>
+</ul></li>
+<li>MD syntax on blog posts
+
+<ul>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet</a> &lt;- nice cheat sheet for markdown syntax</li>
+<li>There&rsquo;s all these settings you can setup in the top of the file, the main ones are:
+
+<ol>
+<li>author</li>
+<li>title</li>
+<li>description</li>
+<li>tags</li>
+<li>categories</li>
+<li>menu = &ldquo;main&rdquo; // this puts it in the navbar</li>
+<li>there&rsquo;s 2 types of syntax they use within these files, I don&rsquo;t know which language it is but the <strong>+++</strong> style (shown in goisforlovers.md and hugoisforlovers.md) is one that i prefer than the <strong>- - -</strong> seen in creating-a-new-theme</li>
+</ol></li>
+</ul></li>
+<li>Modifying source code
+
+<ul>
+<li>All source code is in themes-&gt;themeName-&gt;layouts this usually has all the html files being used, and they use a razor syntax to link files together</li>
+</ul></li>
+<li>FAQ
+
+<ul>
+<li>I just created a new blog post e.g. <strong>doc.md</strong>, why doesn&rsquo;t it show up in the recent posts ?
+
+<ul>
+<li>because its not under the post folder within content, recent widget only looks in the post folder</li>
+</ul></li>
+</ul></li>
+</ol>
+
+        </div>
+        
+    </article>
+    
+    
+    
+
+	<nav class="mr-post-nav mr-row clearfix" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+		
+		<div class="mr-col-1-2 mr-post-nav-item mr-post-nav-prev">
+			<a href="/post/term1/comp1510/" rel="prev"><span>«Previous</span><p>COMP 1510 - Programming Methods</p></a>
+		</div>
+		
+		
+		<div class="mr-col-1-2 mr-post-nav-item mr-post-nav-next">
+			<a href="/about/" rel="next"><span>Next»</span><p>About Hugo</p></a>
+		</div>
+		
+	</nav>
+
+
+    
+</div>
+
+<aside class="mr-sidebar" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+	
+	
+<div class="mr-widget widget_recent_entries">
+	<h4 class="mr-widget-title"><span class="mr-widget-title-inner">Recent Posts</span></h4>
+	<ul>
+		
+		<li><a href="/post/term1/comp1510/">COMP 1510 - Programming Methods</a></li>
+		
+	</ul>
+</div>
+
+
+	
+
+
+<div class="mr-widget widget_categories">
+	<h4 class="mr-widget-title"><span class="mr-widget-title-inner">Categories</span></h4>
+	<ul>
+		
+		<li class="cat-item"><a href="/categories/term-1">Term-1</a></li>
+		
+	</ul>
+</div>
+
+
+
+	
+
+
+<div class="mr-widget widget_tag_cloud">
+	<h4 class="mr-widget-title"><span class="mr-widget-title-inner">Tags</span></h4>
+	<div class="tagcloud">
+		
+			<a href="/tags/java" class="tag-link" title="java" style="font-size: 12px;">java</a>
+		
+	</div>
+</div>
+
+
+
+</aside>
+	</div>
+		<div class="mr-copyright-wrap">
+			<div class="mr-container mr-container-inner clearfix">
+				<p class="mr-copyright">&copy; 2016 BCIT CST. Based on <a href="//wordpress.org/themes/mh-magazine-lite/" target="_blank" rel="nofollow noopener noreferrer">MH Magazine lite</a>.</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

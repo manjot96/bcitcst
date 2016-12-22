@@ -1,12 +1,166 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>BCIT CST</title>
     <link>/index.xml</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on BCIT CST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 21 Dec 2016 18:28:09 -0800</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>COMP 1510 - Programming Methods</title>
+      <link>/post/term1/comp1510/</link>
+      <pubDate>Wed, 21 Dec 2016 18:28:09 -0800</pubDate>
+      
+      <guid>/post/term1/comp1510/</guid>
+      <description>
+
+&lt;p&gt;Many people see this course to be extremely easy, however, I found it to be very difficult when I first started at BCIT. I failed the midterm but that doesn&amp;rsquo;t mean you need to. This is just a beginner&amp;rsquo;s java course however, many struggle with it and many get above 90%. It all depends on the amount of time you are willing to put into it. I&amp;rsquo;m going to tell you the things you should spend your time on and what you shouldn&amp;rsquo;t below.&lt;/p&gt;
+
+&lt;h4 id=&#34;assignments-labs&#34;&gt;Assignments &amp;amp; Labs&lt;/h4&gt;
+
+&lt;p&gt;It&amp;rsquo;s quite easy to get 100% on all the labs and assignments, I remember they provide you to run tests on your program with some scripts to see if your program passes them or not. Never should you ever be handing in a program that doesn&amp;rsquo;t pass in those tests at the very least.&lt;/p&gt;
+
+&lt;p&gt;Now, these might seem difficult at first and they are somewhat but as long as you know your basics, you&amp;rsquo;ll do fine in it. Also try to get a group of friends going, if you don&amp;rsquo;t understand something, ask others. If no one understands that one thing, ask the lab instructor. And if that fails, then ask Bruce. (Bruce is the instructor of this course, he&amp;rsquo;s been teaching it for a very long time and I&amp;rsquo;m assuming he&amp;rsquo;ll continue to do this). There are also some quizzes but the quizzes test very basic things that are taught in the previous week in lectures, if you spend a little time on it you&amp;rsquo;ll for sure ace it.&lt;/p&gt;
+
+&lt;h4 id=&#34;midterm&#34;&gt;Midterm&lt;/h4&gt;
+
+&lt;p&gt;The midterm caught be by surprise because I started memorizing code to do the exam, I thought most of the exam would consist of us actually writing small chunks of code. I was very wrong&amp;hellip;haha. It was a mixture of Multiple Choice, True &amp;amp; False, and Short Answers. And it was heavily based on the first few chapters.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Multiple Choice and True &amp;amp; False
+
+&lt;ul&gt;
+&lt;li&gt;from what I hear, apparently these are taken out of the book&amp;rsquo;s test bank questions so maybe give that a shot if you are really nervous about the exam!&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Short Answers
+
+&lt;ul&gt;
+&lt;li&gt;these consisted of very basic things such as: name all the primitive types, what kind of loops are there, etc.&lt;/li&gt;
+&lt;li&gt;not meant to be tricky questions but if you&amp;rsquo;re just memorizing stuff then I&amp;rsquo;m not sure how well you&amp;rsquo;ll do on this portion&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;final&#34;&gt;Final&lt;/h4&gt;
+
+&lt;p&gt;The Final was actually quite easy if you do all your labs, assignments and actually understand what&amp;rsquo;s going on rather than just making your program work. It had the same layout as our midterm but this time the short answers were asking us to write small chunks of code. This may sound like it can be really difficult but honestly, it&amp;rsquo;s not all that hard. If you get stuck on a question, at least write down something, maybe the function header, declare the variables so you can get some part marks! If you want to ace this section then I&amp;rsquo;d suggest doing some interview algorithm questions. &lt;a href=&#34;https://leetcode.com/&#34;&gt;https://leetcode.com/&lt;/a&gt; is a great place to try out these type of questions. Just do some of the easy ones and if you can figure those out then you can ace this exam no problem.&lt;/p&gt;
+
+&lt;p&gt;Remember this course is worth 7 credits so it weighs &lt;strong&gt;A LOT&lt;/strong&gt; on your GPA, so dedicate the most amount of hours into this! But if you still happen to do poorly in this course, it&amp;rsquo;s not the end of the road because some people (like me) just need more time than others to get a hold of the basics.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Documentation</title>
+      <link>/doc/</link>
+      <pubDate>Wed, 21 Dec 2016 01:25:44 -0800</pubDate>
+      
+      <guid>/doc/</guid>
+      <description>
+
+&lt;h2 id=&#34;simple-documentation-for-getting-started-with-hugo&#34;&gt;Simple Documentation for getting started with Hugo&lt;/h2&gt;
+
+&lt;h3 id=&#34;understanding-how-it-works&#34;&gt;Understanding how it works&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Main file is &lt;strong&gt;config.toml&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Don&amp;rsquo;t really need to understand the syntax&lt;/li&gt;
+&lt;li&gt;Main stuff is the baseurl, title, and theme you&amp;rsquo;ll be using&lt;/li&gt;
+&lt;li&gt;to setup new theme just clone the git repo for that theme into themes folder and change theme = &amp;lsquo;folderNameOfTheme&amp;rsquo; in config.toml&lt;/li&gt;
+&lt;li&gt;Most commands are different theme to theme&lt;/li&gt;
+&lt;li&gt;Every theme has an example site if you want to get started with that&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Creating a new post
+
+&lt;ul&gt;
+&lt;li&gt;All posts are put underneath content-&amp;gt;posts&lt;/li&gt;
+&lt;li&gt;To create a post you can do &lt;strong&gt;hugo new post my-new-post&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;It automatically shows up on the blog&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Testing your blog
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;hugo serve -w&lt;/strong&gt; deploys it locally to localhost:1313&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Deploying to server
+
+&lt;ul&gt;
+&lt;li&gt;type &lt;strong&gt;hugo&lt;/strong&gt; in the root dir and it&amp;rsquo;ll generate a public folder that just contains the html files for your entire website&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;MD syntax on blog posts
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet&#34;&gt;https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet&lt;/a&gt; &amp;lt;- nice cheat sheet for markdown syntax&lt;/li&gt;
+&lt;li&gt;There&amp;rsquo;s all these settings you can setup in the top of the file, the main ones are:
+
+&lt;ol&gt;
+&lt;li&gt;author&lt;/li&gt;
+&lt;li&gt;title&lt;/li&gt;
+&lt;li&gt;description&lt;/li&gt;
+&lt;li&gt;tags&lt;/li&gt;
+&lt;li&gt;categories&lt;/li&gt;
+&lt;li&gt;menu = &amp;ldquo;main&amp;rdquo; // this puts it in the navbar&lt;/li&gt;
+&lt;li&gt;there&amp;rsquo;s 2 types of syntax they use within these files, I don&amp;rsquo;t know which language it is but the &lt;strong&gt;+++&lt;/strong&gt; style (shown in goisforlovers.md and hugoisforlovers.md) is one that i prefer than the &lt;strong&gt;- - -&lt;/strong&gt; seen in creating-a-new-theme&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Modifying source code
+
+&lt;ul&gt;
+&lt;li&gt;All source code is in themes-&amp;gt;themeName-&amp;gt;layouts this usually has all the html files being used, and they use a razor syntax to link files together&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;FAQ
+
+&lt;ul&gt;
+&lt;li&gt;I just created a new blog post e.g. &lt;strong&gt;doc.md&lt;/strong&gt;, why doesn&amp;rsquo;t it show up in the recent posts ?
+
+&lt;ul&gt;
+&lt;li&gt;because its not under the post folder within content, recent widget only looks in the post folder&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+
+&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
+
+&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
+
+&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
+&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading!&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
