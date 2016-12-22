@@ -1,5 +1,5 @@
 
-baseurl = "www.bcitcst.com"
+baseurl = "https://bcitcst.com/"
 title = "BCIT CST"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
