@@ -1,6 +1,6 @@
 
 baseurl = "/"
-title = "Mainroad"
+title = "BCIT CST"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "mainroad"
@@ -15,7 +15,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 
 [Params]
-    subtitle = "Just another site" # Subtitle of your site
+    subtitle = "Our journey in the CST program at BCIT" # Subtitle of your site
     description = " John Doe's Personal blog about everything" # Description of your site
     opengraph = true
     leftsidebar = false # Move sidebar to the left side if true
