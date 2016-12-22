@@ -30,3 +30,11 @@
 7. FAQ
     * I just created a new blog post e.g. **doc.md**, why doesn't it show up in the recent posts ?
         - because its not under the post folder within content, recent widget only looks in the post folder
+
+
+## TO-DO
+
+1. Figure our disqus (used for comments) and make it works
+2. Modify theme so it categories has dropdowns to show all titles
+3. Modify posts to show instructor name and date the course was taken on
+4. Add Index page instead of showing recent posts!
