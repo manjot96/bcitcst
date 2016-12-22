@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BCIT CST</title>
-    <link>http://bcitcst.com/tags/javascript/index.xml</link>
+    <link>http://www.bcitcst.com/tags/javascript/index.xml</link>
     <description>Recent content on BCIT CST</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://bcitcst.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.bcitcst.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>COMP 1536 - Introduction to Web Development</title>
-      <link>http://bcitcst.com/post/term1/comp1536/</link>
+      <link>http://www.bcitcst.com/post/term1/comp1536/</link>
       <pubDate>Wed, 21 Dec 2016 22:35:57 -0800</pubDate>
       
-      <guid>http://bcitcst.com/post/term1/comp1536/</guid>
+      <guid>http://www.bcitcst.com/post/term1/comp1536/</guid>
       <description></description>
     </item>
     
