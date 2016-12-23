@@ -19,7 +19,7 @@ googleAnalytics = "UA-89338138-1" # Enable Google Analytics by entering your tra
     description = " John Doe's Personal blog about everything" # Description of your site
     opengraph = true
     leftsidebar = false # Move sidebar to the left side if true
-    authorbox = false
+    authorbox = true
     post_navigation = true
 
 

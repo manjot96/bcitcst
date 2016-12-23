@@ -12,14 +12,14 @@
                     <svg class="icon icon-category" height="16" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
                     {{ range $index, $category := .Params.categories }}{{ if gt $index 0 }}, {{ end }}<a class="meta-categories" href="{{ "/categories/" | relLangURL }}{{ . | urlize | lower }}" rel="category">{{ . }}</a>{{ end }}</span>
                 {{- end }}
-                <!-- {{ if isset .Params "instructor" }}
+                {{ if isset .Params "instructor" }}
                     <i class="icon icon-category fa fa-user" title="Instructor"></i>
                     <span class="meta-categories">{{ index .Params "instructor" }}</span>
                 {{ end }}
                 {{ if isset .Params "taken-on" }}
                     <i class="icon icon-category fa fa-pencil-square-o" title="Taken On"></i>
                     <span class="meta-categories">{{ index .Params "taken-on" }}</span>
-                {{ end }} -->
+                {{ end }}
             </p>
         </header>
         <div class="entry-content clearfix">

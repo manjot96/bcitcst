@@ -11,6 +11,8 @@
     * All posts are put underneath content->posts
     * To create a post you can do **hugo new post my-new-post**
     * It automatically shows up on the blog
+    * **look at comp1510 as an example, it has all the required params**
+
 3. Testing your blog
     * **hugo serve -w** deploys it locally to localhost:1313
 4. Deploying to server
@@ -34,7 +36,7 @@
 
 ## TO-DO
 
-1. Figure our disqus (used for comments) and make it works
+1. Figure our disqus (used for comments) and make it works // DONE
 2. Modify theme so it categories has dropdowns to show all titles
-3. Modify posts to show instructor name and date the course was taken on
+3. Modify posts to show instructor name and date the course was taken on // DONE
 4. Add Index page instead of showing recent posts!
