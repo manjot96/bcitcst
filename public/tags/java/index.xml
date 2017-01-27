@@ -9,6 +9,33 @@
     <atom:link href="http://www.bcitcst.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>COMP 2526 - Object-Oriented Programming with Java</title>
+      <link>http://www.bcitcst.com/post/term2/comp2526/</link>
+      <pubDate>Thu, 26 Jan 2017 17:19:24 -0800</pubDate>
+      
+      <guid>http://www.bcitcst.com/post/term2/comp2526/</guid>
+      <description>
+
+&lt;p&gt;Another fairly challening course in second term. Personally I enjoyed Dennis Richards teaching style. Its very direct and he does his best to try and get the class talking and start up a discussion. Make sure your paying attention in class as Dennis is know to pick out people who are not and grill them on a question until they get it. Seriously, PAY ATTENTION.
+Lots of practice examples and ideas are written up on the overhead and I suggest you note them down and go home and write them out and play around with what is given and see what causes things to break and why. This will help you a ton for the mid term and final.&lt;/p&gt;
+
+&lt;h4 id=&#34;labs&#34;&gt;Labs&lt;/h4&gt;
+
+&lt;p&gt;The labs are pretty much tutorials, read them carefully follow the instructions and you should be fine. There are also quizzes during the labs which just make sure you understood what happened in the last few lectures, if you did poorly on a quiz go back and figure out what you messed up because its more than likely something similar will show up on your mid term or final except harder.&lt;/p&gt;
+
+&lt;p&gt;The midterm and final will both test your ability to both read and write code and make sure you truly understand the order of operations of a specific program.&lt;/p&gt;
+
+&lt;h4 id=&#34;assignments&#34;&gt;Assignments&lt;/h4&gt;
+
+&lt;p&gt;There will be 2 or 3 assignments that are each broken down into parts. The assignments can be fairly challenging if COMP 1510 is the only Java experience you have but rest assured they are doable. Allocate enough time for the assignments and find a good study group to work and learn from and you&amp;rsquo;ll be just fine.&lt;/p&gt;
+
+&lt;h4 id=&#34;midterm-final&#34;&gt;Midterm &amp;amp; Final&lt;/h4&gt;
+
+&lt;p&gt;If you&amp;rsquo;ve been compiling the code Dennis gives you in lecture and playing with on your own time to see how things break and finding the order of operations you should be able to get through the mid term and final with ease. If not, it will be tough to achieve a high mark. The whole course is about getting a deeper understanding of how Object Oriented languages works and that is what your tested on.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>COMP 1510 - Programming Methods</title>
       <link>http://www.bcitcst.com/post/term1/comp1510/</link>
       <pubDate>Wed, 21 Dec 2016 18:28:09 -0800</pubDate>
